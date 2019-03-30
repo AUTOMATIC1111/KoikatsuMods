@@ -62,9 +62,6 @@ namespace CharacterRandomizer
             ui.randomizeHairColor = e.AddControl(new MakerToggle(cat, "Randomize hair color", this));
 
             e.AddControl(new MakerSeparator(cat, this));
-            ui.randomizePersonality = e.AddControl(new MakerToggle(cat, "Randomize personality", this));
-
-            e.AddControl(new MakerSeparator(cat, this));
             ui.DeviationSlider = e.AddControl(new MakerSlider(cat, "Deviation", 0, 1, 0.1f, this));
 
             ui.randomizeBodySliders.Value = true;

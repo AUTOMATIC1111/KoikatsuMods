@@ -13,9 +13,9 @@ namespace Demosaic
                 var harmony = HarmonyInstance.Create("info.jbcs.koikatsu.demosaic");
                 harmony.PatchAll(typeof(Hooks));
             }
-            catch (Exception e)
+            catch (Exception )
             {
-                BepInLogger.Log(e.ToString(), false);
+                //BepInLogger.Log(e.ToString(), false);
             }
         }
 
